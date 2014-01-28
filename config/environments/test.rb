@@ -33,4 +33,14 @@ Depot::Application.configure do
 
   # Print deprecation notices to the stderr.
   config.active_support.deprecation = :stderr
+
+  config.action_mailer.smtp_settings = {
+    address: "smtp.gmail.com",
+    port: 587,
+    domain: "gmail.com",
+    authentication: "plain",
+    user_name: ENV["G_USERNAME"],
+    password: ENV["G_PASSWORD"],
+    enable_starttls_auto: true
+  }
 end
