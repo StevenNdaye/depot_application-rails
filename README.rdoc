@@ -1,4 +1,5 @@
 == README
 
-Tutorial from Agile Web Development With Rails 4.
-Make sure your PostGres is up and running on port 5432.
+* Tutorial from Agile Web Development With Rails 4.
+* Make sure your PostGres is up and running on port 5432.
+* Run bundle install and set up the credentials for the email under conf/application.yml
