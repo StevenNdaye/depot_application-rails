@@ -38,6 +38,8 @@ en:
       questions:   "Questions"
       news:        "News"
       contact:     "Contact"
+      login:       "Login"
+      register:    "Register"
 #END:layout
 
 #START:cart
